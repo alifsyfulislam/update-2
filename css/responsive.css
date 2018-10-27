@@ -1,0 +1,316 @@
+@media screen and (max-width: 576px) {
+    .header-element{
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    .triangle-logo{
+        width: 100px;
+        height: 70px;
+        margin-top: 45px;
+    }
+
+
+    .header-element h1{
+        margin: 0;
+        padding: 5px 0 0 0;
+        font-family: latobold;
+        font-size: 60px;
+        color: white;
+    }
+
+    .wave-responsive{
+        height: 75px;
+        width: 120px;
+        padding-top: 10px;
+    }
+
+    .img-responsive{
+        margin-top: 14px;
+        height: 175px;
+        object-fit: contain;
+    }
+
+    /************Services***************/
+    .content-title{
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 23px;
+    }
+
+    .content-title h1 {
+        font-size: 35px;
+        font-family: railway;
+        color: #4eadff;
+        font-weight: bold;
+    }
+
+    .content-title small{
+        font-family: titillium;
+        font-size: 13px;
+        color: #4d4d4d;
+    }
+
+    .service-box{
+        height: 200px;
+        width: 70%;
+        background-color: white;
+        margin:0 15% 10% 15%;
+        text-align: center;
+        padding-top: 10px;
+        border: 1px solid #edf2f6;
+        transition: 1s;
+        opacity: 0.85;
+    }
+
+    .service-box p{
+        font-family: latobold;
+        font-size: 14px;
+        color: black;
+        padding: 0 5%;
+    }
+
+    /**************Packages***********/
+    .bg-news{
+        /*background-image: url("../images/News & Event/Untitled-1.png");*/
+        background: linear-gradient(#eef4fa, transparent), url("../images/news/Untitled-1.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        padding-bottom: 60px;
+    }
+    .img-responsive2{
+        height: 100%;
+        width: 80%;
+        margin:  0 10%;
+    }
+
+    .check-box{
+        width: 100%;
+        text-align: center;
+    }
+
+    .online-css{
+        border-left: none;
+        border-top: 1px solid #4eadff;
+    }
+
+    .online-css h3{
+        margin-top: 50px;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .pack{
+        width: 80%;
+        margin: 0 10%;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 769px){
+    .img-top-two{
+        display: none;
+    }
+
+    .inner-service{
+        height: 145px;
+    }
+
+    .service-box{
+        height: 220px;
+        width: 250px;
+        background-color: white;
+        margin-bottom: 10%;
+        text-align: center;
+        padding-top: 10px;
+        border: 1px solid #edf2f6;
+        transition: 1s;
+        opacity: 0.85;
+    }
+    /*****************home***********/
+    .header-element{
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .triangle-logo{
+        width: 110px;
+        height: 85px;
+        margin-top: 45px;
+    }
+
+    .header-element h1{
+        margin: 0;
+        padding: 25px 0 0 0;
+        font-family: latobold;
+        font-size: 60px;
+        color: white;
+    }
+
+    .wave-responsive{
+        height: 85px;
+        width: 120px;
+        padding-top: 10px;
+    }
+
+    .img-responsive{
+        margin-top: 14px;
+        height: 225px;
+        object-fit: contain;
+    }
+
+    .content-title{
+        text-align: center;
+        padding-top: 90px;
+        padding-bottom: 35px;
+    }
+
+    .content-title h1 {
+        font-size: 35px;
+        font-family: railway;
+        color: #4eadff;
+        font-weight: bold;
+    }
+
+    .content-title small{
+        font-family: titillium;
+        font-size: 14px;
+        color: #4d4d4d;
+    }
+
+    /***************Reges***********/
+    .check-box{
+        text-align: center;
+    }
+
+    /*.online-css{*/
+        /*border-left: none;*/
+    /*}*/
+
+    /*.online-css h3{*/
+        /*margin-top: 210px;*/
+    /*}*/
+
+    select {
+        /*-webkit-appearance: none;*/
+        /*-webkit-border-radius: 10px;*/
+        height: 50px;
+        width: 320px;
+        border-radius: 25px;
+        padding: 1.5% 5%;
+        margin-top: 60px;
+    }
+
+    .btn-hover{
+        width: 320px;
+        margin-bottom: 30px !important;
+    }
+
+    .online-css{
+        border-left: none;
+        border-top: 1px solid #4eadff;
+    }
+
+    .online-css h3{
+        margin-top: 50px;
+        font-size: 22px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 770px) and (max-width: 1024px){
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 15px;
+        padding-left: 15px;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: white;
+        font-family: latobold;
+    }
+
+
+    .service-box{
+        height: 220px;
+        width: 230px;
+        background-color: white;
+        margin-bottom: 10%;
+        text-align: center;
+        padding-top: 10px;
+        border: 1px solid #edf2f6;
+        transition: 1s;
+        opacity: 0.85;
+    }
+
+
+    select {
+        /*-webkit-appearance: none;*/
+        /*-webkit-border-radius: 10px;*/
+        height: 50px;
+        width: 175px;
+        border-radius: 25px;
+        padding: 1.5% 5%;
+        margin-top: 60px;
+    }
+
+    .btn-hover{
+        width: 175px;
+    }
+
+    .online-css{
+        text-align: center;
+    }
+
+    .online-css h3{
+        margin-top: 150px;
+    }
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1400px){
+    .online-css{
+        text-align: center;
+    }
+
+    .online-css h3{
+        margin-top: 170px;
+    }
+}
+
+
+@media screen and (min-width: 1401px) and (max-width: 2200px){
+    .online-css{
+        text-align: center;
+    }
+
+    .online-css h3{
+        margin-top: 160px;
+    }
+
+    .service-box{
+        height: 220px;
+        width: 280px;
+        background-color: white;
+        margin-bottom: 10%;
+        text-align: center;
+        padding-top: 10px;
+        border: 1px solid #edf2f6;
+        transition: 1s;
+        opacity: 0.85;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 770px){
+    .navbar-expand-md .navbar-nav .nav-link {
+        text-align: center;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: white;
+        padding: 25px 0px;
+        font-family: latobold;
+    }
+
+    .navbar-expand-md .navbar-nav .nav-link:hover{
+        text-decoration: underline;
+    }
+}
